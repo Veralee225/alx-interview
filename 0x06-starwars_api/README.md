@@ -1,5 +1,23 @@
 # 0x06  - Star Wars API
 
+## Requirements
+
+### Install semi-standard
+
+```
+$ sudo npm
+install semistandard --global
+```
+
+### Install request module and use it
+
+[documentation](https://intranet.alxswe.com/rltoken/BWz2gc45S-nZaxEY6GA6Zw)
+
+```
+$ sudo npm install request --global
+$ export NODE_PATH=/usr/lib/node_modules
+```
+
 ## Task
 
 Write a script that prints all characters of a Star Wars movie:
