@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const request = require('request');
 
-const endpoint = 'https://swapi-api.alx-tools.com/api/people/1/';
+const endpoint = 'https://swapi-api.hbtn.io/api/films/';
 const filmId = process.argv[2];
 
 request(`${endpoint}/films/${filmId}/`, async function (error, response, body) {
