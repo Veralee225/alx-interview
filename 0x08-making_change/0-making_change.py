@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-Make change
+a python module to make a change
 """
+
 
 def makeChange(coins, total):
     """
@@ -12,7 +13,6 @@ def makeChange(coins, total):
     Returns:
         the fewest number of coins to meet total
     """
-
     if total <= 0:
         return 0
     sorted_coins = sorted(coins, reverse=True)
